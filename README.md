@@ -50,21 +50,21 @@
 
 Tugas 2
 
-- HTML masih bisa jalan tapi tampilannya kacau (misalnya teks heading nyambung sampai bawah,paragraf tidak rapih ) browser biasanya "memperbaiki otomatis"eror ringan,tapi tidak selalu sesuai harapan . Jadi, HTML itu toleran (masih bisa ditampilkan walau ada error), tapi sebaiknya selalu rapih dan tag ditutup dengan benar biar tidak bingung saat projek makin besar.
-- &lt;p&gt; ( Paragraph )
+1.- HTML masih bisa jalan tapi tampilannya kacau (misalnya teks heading nyambung sampai bawah,paragraf tidak rapih ) browser biasanya "memperbaiki otomatis"eror ringan,tapi tidak selalu sesuai harapan . Jadi, HTML itu toleran (masih bisa ditampilkan walau ada error), tapi sebaiknya selalu rapih dan tag ditutup dengan benar biar tidak bingung saat projek makin besar.
+2.- &lt;p&gt; ( Paragraph )
 
 - Dipakai untuk membuat **paragraf baru**.
 - Otomatis memberi **jarak (spasi)** sebelum dan sesudah paragraf.
 - Harus ditutup dengan &lt;/p&gt;.
 - Bisa berisi teks panjang, elemen inline (seperti &lt;b&gt;, &lt;i&gt;, &lt;u&gt;), dan &lt;br&gt;.
 
-&lt;br&gt; ( Line Break )
+-&lt;br&gt; ( Line Break )
 
 - Dipakai untuk **pindah baris** (enter) dalam paragraf yang sama.
 - Tidak membuat paragraf baru.
 - Tidak punya penutup (self-closing).
 
-- **ALT** ( Alternatif Text )
+3.- **ALT** ( Alternatif Text )
 
 Singkatan dari **alternative text**.
 
@@ -85,7 +85,7 @@ Contoh: &lt;img src="tidak-ada.png" alt="Gambar tidak ditemukan"&gt;
 
 Contoh : &lt;img src="logo-upb.png" alt="Logo Universitas Pelita Bangsa" title="Logo resmi kampus UPB"&gt;
 
-- width → lebar gambar (dalam piksel atau persen).
+4.- width → lebar gambar (dalam piksel atau persen).
 - height → tinggi gambar.
 
 **Kalau hanya isi** w**idth atau height saja →**  
@@ -100,7 +100,7 @@ Contoh : &lt;img src="logo-upb.png" width="200" height="100" alt="Logo UPB"&gt;
 
 Jadi sebaiknya cukup isi salah satu saja (biasanya w**idth)** → biar tinggi menyesuaikan otomatis, gambar tetap proporsional,Kalau mau isi dua-duanya, pastikan rasio width:height sama dengan ukuran asli gambar.
 
-- **\_Blank**
+5.- **\_Blank**
 
  Membuka link di **tab baru / jendela baru.**
 
